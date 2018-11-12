@@ -1,0 +1,11 @@
+dev:
+    scheme: ftp
+    host: files.000webhost.com
+    port: 21
+    user: ott11marc
+    pass: chuiblond11
+    check: true
+    path:
+        
+        remote: public_html/
+
