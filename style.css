@@ -8,3 +8,27 @@ Version: 1.0
 .m-dw-30 {
     margin-bottom: 30px;
 }
+
+header
+{
+    font-size: 30px;
+   
+    
+}
+header li
+{
+    margin-left: 100px;
+}
+
+.maj
+{
+    text-transform: uppercase;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    background-image: url(assets/images/Banniere.png);
+    height: 423px;
+   
+    
+}

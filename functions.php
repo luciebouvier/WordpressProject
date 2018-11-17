@@ -62,4 +62,13 @@ add_action('wp_enqueue_scripts', 'add_styles_scripts');
 
 // add_action('after_setup_theme','lgmac_setup');
 
+<<<<<<< HEAD
 // ?>
+=======
+function theme_prefix_setup() {
+    add_theme_support( 'custom-logo' );
+}
+add_action( 'after_setup_theme', 'theme_prefix_setup' );
+
+?>
+>>>>>>> f720e5c4da51fd367faf8ac527759998922b665e

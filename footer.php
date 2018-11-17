@@ -4,6 +4,7 @@
 
 
 <footer id="footer">
+<<<<<<< HEAD
         <!--
             Tout le contenu de la partie head de mon site
          -->
@@ -103,6 +104,18 @@
 
 
 
+=======
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    
+                </div>
+            </div>
+        </div>
+        </footer>
+       
+        <!-- Execution de la fonction wp_footer() obligatoire ! -->
+>>>>>>> f720e5c4da51fd367faf8ac527759998922b665e
         <?php wp_footer();  ?>
     </body>
 </html>
