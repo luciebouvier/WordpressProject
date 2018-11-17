@@ -18,7 +18,7 @@
     <body <?php body_class(); ?>>
         <header id="header">
 
-
+        
 
 
 
@@ -46,7 +46,14 @@
                         <a class="nav-link" href="#">Femme <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
+                        <a class="nav-link" href="#">Don <span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                    <li class="nav-item active">
                         <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Panier <span class="sr-only">(current)</span></a>
                     </li>
                     
                     

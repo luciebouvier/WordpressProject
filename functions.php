@@ -17,6 +17,9 @@ function add_styles_scripts() {
 	wp_register_style('footer', CSS_URL . '/footer.css');
 	wp_enqueue_style('footer');
 
+
+
+
 	wp_register_script('script', JS_URL . '/script.js', array(), '1.0', true);
 	wp_enqueue_script('script');
 }

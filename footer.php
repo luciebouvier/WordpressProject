@@ -65,7 +65,7 @@
                 <div class="col-lg-3 col-xs-12">
                    <h3>Catégorie</h3>
                     <ul>
-                        <li><a href="#">Femme</a></li>
+                        <li><a href="femme">Femme</a></li>
                         <li><a href="#">Homme</a></li>
 						
                     </ul>
