@@ -11,13 +11,12 @@ Version: 1.0
 
 header
 {
-    font-size: 30px;
-   
+    font-size: 100%;  
     
 }
 header li
 {
-    margin-left: 100px;
+    margin-left: 75px;
 }
 
 .maj
@@ -26,7 +25,7 @@ header li
 }
 
 .jumbotron {
-    margin-bottom: 0;
+    
     background-image: url(assets/images/Banniere.png);
     height: 423px;
    

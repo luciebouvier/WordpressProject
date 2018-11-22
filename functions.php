@@ -11,9 +11,14 @@ define( 'ADMIN_IMAGES_URL' ,    IMAGES_URL .   '/admin'             );
 
 define('LGMAC_VERSION','1.0.2');
 
+
+
 function lgmac_scripts(){
     wp_enqueue_style('lgmac_bootstrap-core',get_template_directory_uri() . '/css/bootstrap.min.css',array(),LGMAC_VERSION,'all');
     wp_enqueue_style('lgmac_custom',get_template_directory_uri() . '/style.css',array('lgmac_bootstrap-core'),LGMAC_VERSION,'all');
+
+    wp_register_style('footer', CSS_URL . '/footer.css');
+	wp_enqueue_style('footer');
 
     
     wp_enqueue_script('bootstrap-js',get_template_directory_uri() . '/js/bootstrap.min.js',array(jquery), LGMAC_VERSION , true );
@@ -47,9 +52,14 @@ function lgmac_setup(){
 
 add_action('after_setup_theme','lgmac_setup');
 
+
 function theme_prefix_setup() {
     add_theme_support( 'custom-logo' );
 }
 add_action( 'after_setup_theme', 'theme_prefix_setup' );
+
+/*foreach ( glob( THEME_PATH . "/inc/*.php" ) as $file ) {
+    include_once $file;
+}*/
 
 ?>
