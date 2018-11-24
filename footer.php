@@ -1,10 +1,4 @@
-
-
-
-
-
 <footer id="footer">
-<<<<<<< HEAD
         <!--
             Tout le contenu de la partie head de mon site
          -->
@@ -44,16 +38,21 @@
 				<i class="fab fa-cc-paypal"></i>
 				<i class="fab fa-cc-mastercard"></i>
 		   </div>
-	   </div>
+       </div>
+       <img src="http://localhost/wordpress/wp-content/uploads/2018/11/Logo.png"; width="100px";
+height="30px"; >
 	</div>
 	
 	<footer>
+    
 		<div class="footer" id="footer">
+        
             <div class="container">
                <div class="row">
 			
                
-				
+               
+
 				<div class="col-lg-3 col-xs-12">
                    <h3>Donnation</h3>
                     <ul>
@@ -66,7 +65,7 @@
                 <div class="col-lg-3 col-xs-12">
                    <h3>Catégorie</h3>
                     <ul>
-                        <li><a href="femme">Femme</a></li>
+                        <li><a href="#">Femme</a></li>
                         <li><a href="#">Homme</a></li>
 						
                     </ul>
@@ -104,18 +103,6 @@
 
 
 
-=======
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    
-                </div>
-            </div>
-        </div>
-        </footer>
-       
-        <!-- Execution de la fonction wp_footer() obligatoire ! -->
->>>>>>> f720e5c4da51fd367faf8ac527759998922b665e
         <?php wp_footer();  ?>
     </body>
 </html>
