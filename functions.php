@@ -42,16 +42,9 @@ add_action( 'wp_enqueue_scripts', 'my_theme_scripts' );
 
 add_action('wp_enqueue_scripts', 'add_styles_scripts');
 
-function ajaxJs()
- {
-     // Envoyer l'url de admin-ajax.php au fichier main.js via la variable ajaxurl
-     wp_localize_script('main', 'ajaxurl', admin_url( 'admin-ajax.php' ) );
-
- }
-add_action('wp_enqueue_scripts', 'ajaxJs');
-
 add_action('wp_ajax_load_posts_by_ajax', 'load_posts_by_ajax_callback');
 add_action('wp_ajax_nopriv_load_posts_by_ajax', 'load_posts_by_ajax_callback');
+
 function load_posts_by_ajax_callback() {
     check_ajax_referer('load_more_posts', 'security');
     $paged = $_POST['page'];
@@ -71,11 +64,27 @@ function load_posts_by_ajax_callback() {
         <?php
     endif;
  
-	
-	wp_die();
-	
+    wp_die();
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+add_action('wp_ajax_loadmore', 'misha_loadmore_ajax_handler'); // wp_ajax_{action}
+add_action('wp_ajax_nopriv_loadmore', 'misha_loadmore_ajax_handler'); // wp_ajax_nopriv_{action}
 
  //function lgmac_scripts(){
      //wp_enqueue_style('lgmac_bootstrap-core',get_template_directory_uri() . '/css/bootstrap.min.css',array(),LGMAC_VERSION,'all');

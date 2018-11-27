@@ -6,7 +6,7 @@
     $args = array(
         'post_type' => 'post',
         'post_status' => 'publish',
-        'posts_per_page' => '2',
+        'posts_per_page' => '',
         'paged' => 1,
     );
     $my_posts = new WP_Query( $args );
@@ -19,27 +19,7 @@
             <?php endwhile ?>
         </div>
     <?php endif ?>
-    <div class="loadmore">Load More...</div>
-</div>
+    
 
 
-<script type="text/javascript">
-var ajaxurl = "<?php echo admin_url( 'admin-ajax.php' ); ?>";
-var page = 2;
-jQuery(function($) {
-    $('body').on('click', '.loadmore', function() {
-        var data = {
-            'action': 'load_posts_by_ajax',
-            'page': page,
-            'security': '<?php echo wp_create_nonce("load_more_posts"); ?>'
-        };
- 
-        $.post(ajaxurl, data, function(response) {
-            $('.my-posts').append(response);
-            page++;
-        });
-    });
-});
-
-</script>
 <?php get_footer(); ?> 
