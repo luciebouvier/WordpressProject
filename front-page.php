@@ -6,7 +6,7 @@
 
     <section >
         <div style="position:relative;">
-            <div  style=" padding-bottom:100px; width:100%;position:absolute;z-index:1 ">
+            <div  style=" width:100%;position:absolute;z-index:1 ">
                 <img src="<?php echo THEME_URL; ?>/assets/images/Banniere.png" width="100%" height="auto" >           
             </div>
             <div style="position:absolute;z-index:2;padding-left:75%;padding-top:15%;">

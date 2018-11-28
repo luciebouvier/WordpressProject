@@ -20,20 +20,29 @@ function lgmac_add_produit_cpt()
     );
     $args = array(
         'labels'              => $labels,
-        'hierarchical'        => true,
-        'supports'            => array( 'title','thumbnail','editor'),
+        'hierarchical'        => false,
+        'supports'            => array( 'title','thumbnail','editor', "excerpt", "custom-fields", "revisions" ),
         'public'              => true,
         'show_ui'             => true,
         'show_in_menu'        => true,
-        'menu_position'       => 1,
+        'menu_position'       => 20,
         'menu_icon'           => 'dashicons-hammer',
         'show_in_nav_menus'   => true,
         'publicly_queryable'  => true,
         'exclude_from_search' => true,
-        'has_archive'         => false,
+        'has_archive'         => true,
         'query_var'           => true,
         'can_export'          => true,
         'rewrite'             => array( 'slug' => $post_type )
     );
     register_post_type($post_type, $args );
+
+    $taxonomy = "Genre";
+    $object_type = array("produit");
+    $taxonomy_args = array(
+          'label' => 'Genre',
+          'rewrite' => array( 'slug' => 'genre-produit' ),
+          'hierarchical' => true,
+    );
+    register_taxonomy( $taxonomy, $object_type, $taxonomy_args );
 }

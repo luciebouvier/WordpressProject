@@ -1,15 +1,10 @@
 jQuery(document).ready(function($){
-
-    $("h1").css('color',"#f00");
-});
-
-jQuery(document).ready(function($){
     var pagination=$(".readMore").attr("data-pagination"); // exemple de récupération de contenu
   
       $(".readMore").on("click", function(e){
           e.preventDefault();
           console.log(pagination);
-          var ajax_section =$(".entry-content"); // zone ou renvoyer le contenu de l'AJAX
+          var ajax_section =$(".card-columns"); // zone ou renvoyer le contenu de l'AJAX
           jQuery.post(
               ajaxurl, // url du fichier admin-ajax.php,
               {

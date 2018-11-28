@@ -1,5 +1,5 @@
 <footer id="footer">
-<<<<<<< HEAD
+
         <!--
             Tout le contenu de la partie head de mon site
          -->
@@ -50,7 +50,7 @@
                
 				
 				<div class="col-lg-3 col-xs-12">
-                   <h3>Donnation</h3>
+                   <h3>Donation</h3>
                     <ul>
                         <li><a href="#">Don</a></li>
                        
@@ -103,7 +103,7 @@
         </footer>
        
         <!-- Execution de la fonction wp_footer() obligatoire ! -->
->>>>>>> f720e5c4da51fd367faf8ac527759998922b665e
+
         <?php wp_footer();  ?>
     </body>
 </html>
