@@ -2,9 +2,10 @@ dev:
     scheme: ftp
     host: files.000webhost.com
     port: 21
-    user: ott11marc
-    pass: chuiblond11
+    user: meriemhouriamrabentalgerie
+    pass: 9lzdbxbb
     check: true
+    exclude: ["dploy.yaml", ".gitignore"]
     path:
         
         remote: public_html/

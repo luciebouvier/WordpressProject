@@ -15,10 +15,52 @@
          -->
 
         <!-- Execution de la fonction wp_head() obligatoire ! -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>
         <header id="header">
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+
+                <a class="navbar-brand" href="/wordpress">Céres</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Homme <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Femme <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Don <span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Panier <span class="sr-only">(current)</span></a>
+                    </li>
+
 
             <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4" >
                 <a style="padding-right:220px;" class="navbar-brand" href="/wordpress"><img src="<?php echo THEME_URL; ?>/assets/images/Logo.png" height="25px" width="auto"></a>
@@ -37,6 +79,29 @@
                                 );
                                 wp_nav_menu($args);
                             ?>                  
+
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active" class="lien-header">
+                            <a class="nav-link" href="#">FEMME <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">HOMME <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">DON <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">CONTACT <span class="sr-only">(current)</span></a>
+                        </li> 
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"> <img src="<?php echo THEME_URL; ?>/assets/images/basket.png" height="50" width="auto" > <span class="sr-only">(current)</span></a>
+                            
+                        </li>   
+                        </ul>
+                        
+
                     
                 </div>
 
