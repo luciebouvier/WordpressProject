@@ -11,7 +11,7 @@
             </div>
             <div style="position:absolute;z-index:2;padding-left:75%;padding-top:15%;">
                 <p class="lead" style="font-size:50px;">
-                    <a class="btn btn-light btn-lg" href="archive-lgmac-media" role="button">FEMME</a>
+                    <a class="btn btn-light btn-lg" href="femme" role="button">FEMME</a>
                 </p>
                 
             </div>
@@ -22,14 +22,14 @@
                 <img src="<?php echo THEME_URL; ?>/assets/images/sneaker.gif" height="auto" width="100%" >
                 <p class="maj" style="text-align:center; font-size:175%;" > Nos sneakers </p>
                 <p class="lead" style="text-align:center;">
-                <a class="btn btn-secondary btn-lg" href="#" role="button">SHOPPEZ ?</a>
+                <a class="btn btn-secondary btn-lg" href="homme" role="button">SHOPPEZ ?</a>
             </p>
             </div>
             <div  style="width:35%; float:left;  margin-left:10%; padding-bottom:75px;">
                 <img src="<?php echo THEME_URL; ?>/assets/images/Home.png" height="auto" width="100%">
                 <p class="maj" style="text-align:center; font-size:175%; "> Nos jeans </p>
                 <p class="lead" style="text-align:center;" >
-                <a class="btn btn-secondary btn-lg" href="#" role="button">SHOPPEZ ?</a>
+                <a class="btn btn-secondary btn-lg" href="femme" role="button">SHOPPEZ ?</a>
             </p>
             </div>
         </div>

@@ -55,7 +55,7 @@ Template Name: Femme
               }
             }
             else{
-              echo '<p>Pas d\'item dans le portfolio</p>';
+              echo '<p>Pas d\'item dans le produit</p>';
             }
             wp_reset_postdata();
           ?>

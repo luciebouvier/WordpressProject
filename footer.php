@@ -29,18 +29,7 @@
 
 	
 	
-	<div class="footer-top">
-	   <div class="container">
-	      <div class="social-icons">
-		        <i class="fab fa-twitter"></i>
-				
-				<i class="fab fa-instagram"></i>
-				<i class="fab fa-facebook-f"></i>
-				<i class="fab fa-cc-paypal"></i>
-				<i class="fab fa-cc-mastercard"></i>
-		   </div>
-	   </div>
-	</div>
+	
 	
 	<footer>
 		<div class="footer" id="footer">
@@ -92,7 +81,6 @@
 
 
 
-=======
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
